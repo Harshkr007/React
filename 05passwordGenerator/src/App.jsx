@@ -109,7 +109,7 @@ function App() {
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");
 
-  const passwordRef = useRef(null); // Corrected initialization
+  const passwordRef = useRef(null); // corrected initialization
 
   const passwordGenerator = useCallback(() => {
     let pass = "";
